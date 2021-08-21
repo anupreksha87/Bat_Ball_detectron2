@@ -30,10 +30,13 @@ Dataset information: There are two folders within the dataset provided
 
 5) outcome - detect bat and ball in each frame of test videos and draw a rectangular bounding box around bat and ball in each frame.
 
->> Approach
- We approached the problem statement  in two phases.
-1.we converted given dataset in one of the standard object detection dataset formats like COCO, PASAL-VOC etc. Doing this made my dataset compatible with lot of open source algorithms and frameworks. We chose COCO format as it involved much more complexities in implementation.
-2.We converted existing dataset to coco format.(>>Coco json Data.ipynb)
-3.
+### >> Approach
+We approached the problem statement  in two phases.
+
+1) we converted given dataset in one of the standard object detection dataset formats like COCO, PASAL-VOC etc. Doing this made my dataset compatible with lot of open source algorithms and frameworks. We chose COCO format as it involved much more complexities in implementation.
+2) 
+3) We converted existing dataset to coco format.(>>Coco json Data.ipynb)
+4) 
+5) We decided to use R50-FPN Mask R-CNN model pretrained model from Detectron2 to train on my dataset of images. And than we loaded model for inference on Videos.(>>Model Prediction.ipynb)
 
 
